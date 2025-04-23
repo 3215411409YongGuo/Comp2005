@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maternity Ward API Service</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        .api-list {
+            margin-top: 30px;
+        }
+        .api-card {
+            background-color: #f5f5f5;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .api-title {
+            color: #3498db;
+            margin-top: 0;
+        }
+        .api-description {
+            color: #7f8c8d;
+            margin-bottom: 10px;
+        }
+        .api-link {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 8px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .api-link:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Maternity Ward API Service</h1>
+    
+    <div class="api-list">
+        <div class="api-card">
+            <h2 class="api-title">F1: Patients Never Admitted</h2>
+            <p class="api-description">Get a list of patients who have never been admitted</p>
+            <a href="/api/maternity/patients/never-admitted" class="api-link" target="_blank">View Results</a>
+        </div>
+        
+        <div class="api-card">
+            <h2 class="api-title">F2: Patients Readmitted Within 7 Days</h2>
+            <p class="api-description">Get a list of patients who were readmitted within 7 days after discharge</p>
+            <a href="/api/maternity/patients/readmitted-within-7-days" class="api-link" target="_blank">View Results</a>
+        </div>
+        
+        <div class="api-card">
+            <h2 class="api-title">F3: Month With Most Admissions</h2>
+            <p class="api-description">Determine which month had the highest number of admissions</p>
+            <a href="/api/maternity/admissions/month-with-most" class="api-link" target="_blank">View Results</a>
+        </div>
+        
+        <div class="api-card">
+            <h2 class="api-title">F4: Patients With Multiple Staff</h2>
+            <p class="api-description">Get a list of patients who have more than one staff member assigned</p>
+            <a href="/api/maternity/patients/with-multiple-staff" class="api-link" target="_blank">View Results</a>
+        </div>
+    </div>
+</body>
+</html> 
