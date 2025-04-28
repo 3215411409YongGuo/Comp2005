@@ -1,4 +1,4 @@
-# Hospital Maternity Web Service API Project Instructions
+# Hospital Maternity Web Service API Project
 
 ## 1. Project Overview
 This project focuses on the hospital maternity web service API, aiming to provide data support for hospital management and related services. By building a web service API and a desktop application, it realizes the functions of querying and managing patient admission information. Comprehensive software testing has also been carried out to ensure the quality and stability of the system.
